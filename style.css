@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(myBackground.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+}
+
+.loading {
+  margin: 0 auto;
+  padding: 10px;
+  background-color: black;
+  color: rgb(0, 204, 255);
+  border: 2px solid green;
+  border-radius: 100%;
+  position: relative;
+  top: 250px;
+}
+.header {
+  color: coral;
+  font-size: 50px;
+  position: relative;
+  left: 60px;
+}
+.advice {
+  background-image: url(adviceBackground.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 10px;
+  height: 150px;
+  width: 350px;
+  border: 2px solid yellow;
+  border-radius: 15px;
+  position: relative;
+  top: 200px;
+  left: 30px;
+  color: red;
+  text-align: center;
+}
+.button {
+  width: 150px;
+  height: 30px;
+  color: blueviolet;
+  background-color: darkgrey;
+  border: 2px solid grey;
+  cursor: pointer;
+}
